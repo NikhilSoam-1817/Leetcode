@@ -11,9 +11,9 @@ class Solution {
             j++;
             
         }
-        if(count==0){
-            return true;
-        }
-        return false;
+        boolean a=(count==0) ?true:false;
+        return a;
+        
+        
     }
 }
