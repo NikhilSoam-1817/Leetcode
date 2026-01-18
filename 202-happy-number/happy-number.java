@@ -2,6 +2,7 @@ class Solution {
     public boolean isHappy(int n) {
       
       Set <Integer> set=new HashSet<>();
+      set.add(n);
       while(true){
        
         int sum=0;
